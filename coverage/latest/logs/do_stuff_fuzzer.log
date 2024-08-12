@@ -1,1 +1,21 @@
-/github/workspace/build-out/do_stuff_fuzzer: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.34' not found (required by /github/workspace/build-out/do_stuff_fuzzer)
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1065262295
+INFO: Loaded 1 modules   (14 inline 8-bit counters): 14 [0x560b7dda6410, 0x560b7dda641e), 
+INFO: Loaded 1 PC tables (14 PCs): 14 [0x560b7dda6420,0x560b7dda6500), 
+MERGE-OUTER: 6 files, 0 in the initial corpus, 0 processed earlier
+MERGE-OUTER: attempt 1
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1065269054
+INFO: Loaded 1 modules   (14 inline 8-bit counters): 14 [0x559c74568410, 0x559c7456841e), 
+INFO: Loaded 1 PC tables (14 PCs): 14 [0x559c74568420,0x559c74568500), 
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
+MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge83.txt'
+MERGE-INNER: 6 total files; 0 processed earlier; will process 6 files now
+#1	pulse  cov: 2 ft: 2 exec/s: 0 rss: 27Mb
+#2	pulse  cov: 4 ft: 4 exec/s: 0 rss: 27Mb
+#4	pulse  cov: 5 ft: 5 exec/s: 0 rss: 27Mb
+#6	DONE   cov: 6 ft: 6 exec/s: 0 rss: 27Mb
+MERGE-OUTER: successful in 1 attempt(s)
+MERGE-OUTER: the control file has 706 bytes
+MERGE-OUTER: consumed 0Mb (27Mb rss) to parse the control file
+MERGE-OUTER: 4 new files with 6 new features added; 6 new coverage edges

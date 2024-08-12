@@ -1,1 +1,4 @@
-/github/workspace/build-out/example_fuzzer: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.34' not found (required by /github/workspace/build-out/example_fuzzer)
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1065269606
+INFO: Loaded 1 modules   (14 inline 8-bit counters): 14 [0x55d4ef074410, 0x55d4ef07441e), 
+INFO: Loaded 1 PC tables (14 PCs): 14 [0x55d4ef074420,0x55d4ef074500), 
